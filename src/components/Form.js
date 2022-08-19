@@ -132,6 +132,62 @@ const Form = () => {
               <input type="text" placeholder="Enter Pincode" />
             </div>
           </div>
+          <h3>Other Details</h3>
+          <div className="form_group_parent">
+            <div className="form_group">
+              <label htmlFor="name">
+                Occupation
+                <span className="star">*</span>
+              </label>
+              <input type="text" placeholder="Enter Occupation" />
+            </div>
+            <div className="form_group">
+              <label htmlFor="">Religion</label>
+              <select name=" Govt Issue ID">
+                <option value="" disabled selected hidden>
+                  Enter Religion
+                </option>
+
+                <option value="Hindu">Hindu</option>
+                <option value="Muslium">Muslium</option>
+                <option value="Sikh">Sikh</option>
+                <option value="Jain">Jain</option>
+              </select>
+            </div>
+            <div className="form_group">
+              <label htmlFor=""> Maritial Status </label>
+              <select name="" id="" form="">
+                <option value="" disabled selected hidden>
+                  Enter Maritial Status{' '}
+                </option>
+
+                <option value="Married">Married</option>
+                <option value="Unmarried">Unmarried</option>
+              </select>
+            </div>
+            <div className="form_group">
+              <label htmlFor="">Blood Group</label>
+              <select name="" id="" form="">
+                <option value="" disabled selected hidden>
+                  Blood Group{' '}
+                </option>
+
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+              </select>
+            </div>
+          </div>
+          <br />
+          <div className="form_group_parent">
+            <div className="form_group">
+              <label htmlFor="name">Nationality</label>
+              <input type="text" placeholder="India" />
+            </div>
+          </div>
         </form>
       </Paper>
     </>
