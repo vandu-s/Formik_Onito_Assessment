@@ -1,0 +1,16 @@
+h3 {
+  text-decoration: underline;
+}
+form {
+  padding: 12px;
+}
+.form_group_parent {
+  display: flex;
+}
+.form_group {
+  /* width: 30%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+}
